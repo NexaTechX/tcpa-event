@@ -6,6 +6,7 @@ import { Menu } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState } from "react"
+import { ThemeToggle } from "./theme-toggle"
 
 export function Navigation() {
   const pathname = usePathname()
@@ -54,13 +55,15 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
+            <ThemeToggle />
             <Button asChild className="bg-primary hover:bg-primary/90 hover:scale-105 transition-all shadow-lg">
               <a href="/tickets">Register Now</a>
             </Button>
           </div>
 
           {/* Mobile Navigation */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center space-x-2">
+            <ThemeToggle />
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="hover:bg-primary/10">

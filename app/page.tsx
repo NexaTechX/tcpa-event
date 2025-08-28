@@ -3,6 +3,9 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle, Users, Award, Network, BookOpen, TrendingUp } from "lucide-react"
 import Image from "next/image"
 import { SiteLayout } from "@/components/site-layout"
+import { CountdownTimer } from "@/components/countdown-timer"
+import { TestimonialsCarousel } from "@/components/testimonials-carousel"
+import { NewsletterSignup } from "@/components/newsletter-signup"
 
 export default function HomePage() {
   return (
@@ -55,6 +58,13 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Countdown Timer Section */}
+      <section className="py-16 bg-card/50">
+        <div className="container mx-auto px-4">
+          <CountdownTimer />
+        </div>
+      </section>
+
       {/* Welcome Message Section */}
       <section className="py-16 bg-card">
         <div className="container mx-auto px-4">
@@ -94,6 +104,22 @@ export default function HomePage() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-card/50">
+        <div className="container mx-auto px-4">
+          <TestimonialsCarousel />
+        </div>
+      </section>
+
+      {/* Newsletter Signup Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-2xl mx-auto">
+            <NewsletterSignup />
           </div>
         </div>
       </section>

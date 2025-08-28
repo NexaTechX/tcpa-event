@@ -21,8 +21,8 @@ export default function TicketsPage() {
                 <span className="text-primary">Conference Experience</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Select the perfect ticket that matches your goals and budget. Every option gets you access to
-                life-changing content.
+                Select the perfect ticket that matches your goals and budget. Choose from in-person attendance (FREE), 
+                virtual streaming (₦5,000), VIP experience (₦20,000), or corporate packages (₦90,000).
               </p>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function TicketsPage() {
       {/* Pricing Cards */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
 
             {/* Regular Pass */}
             <Card className="bg-card border-border hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
@@ -69,8 +69,54 @@ export default function TicketsPage() {
                   </div>
                 </div>
                 <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground hover:scale-105 transition-transform">
-                  <a href="https://selar.com/mj10s2" target="_blank" rel="noopener noreferrer">
+                  <a href="https://selar.com/4436a6" target="_blank" rel="noopener noreferrer">
                     Get Free Access
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Virtual Pass */}
+            <Card className="bg-card border-border hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
+              <CardHeader className="text-center pb-8">
+                <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/30 transition-colors">
+                  <Star className="w-8 h-8 text-primary group-hover:scale-110 transition-transform" />
+                </div>
+                <CardTitle className="text-2xl font-bold text-card-foreground">Virtual Pass</CardTitle>
+                <div className="mt-4">
+                  <span className="text-4xl font-bold text-primary">₦5,000</span>
+                </div>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Live streaming of all sessions</span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Virtual networking rooms</span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Access to recorded sessions (30 days)</span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Digital conference materials</span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">Virtual certificate of attendance</span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Check className="w-5 h-5 text-muted-foreground mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground line-through">No physical swag or in-person networking</span>
+                  </div>
+                </div>
+                <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-transform">
+                  <a href="https://selar.com/mj10s2" target="_blank" rel="noopener noreferrer">
+                    Get Virtual Access – ₦5,000
                   </a>
                 </Button>
               </CardContent>
@@ -176,7 +222,7 @@ export default function TicketsPage() {
                   </div>
                 </div>
                 <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground hover:scale-105 transition-transform">
-                  <a href="https://selar.com/4436a6" target="_blank" rel="noopener noreferrer">
+                  <a href="https://selar.com/61m9w9" target="_blank" rel="noopener noreferrer">
                     Get Corporate Access
                   </a>
                 </Button>
@@ -242,8 +288,20 @@ export default function TicketsPage() {
                     Can I upgrade my ticket later?
                   </h3>
                   <p className="text-muted-foreground">
-                    Yes, you can upgrade from Regular to VIP or Corporate pass at any time before the event, subject to
+                    Yes, you can upgrade from Regular to Virtual Pass or VIP pass at any time before the event, subject to
                     availability.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-card border-border hover:shadow-lg transition-all duration-300 hover:border-primary/30 group">
+                <CardContent className="p-6">
+                  <h3 className="font-semibold text-card-foreground mb-2 group-hover:text-primary transition-colors">
+                    What's the difference between Virtual and Regular Pass?
+                  </h3>
+                  <p className="text-muted-foreground">
+                    The Virtual Pass (₦5,000) gives you online access to all sessions with live streaming and virtual networking, 
+                    while the Regular Pass (FREE) is for in-person attendance. Virtual attendees get 30-day access to recorded sessions.
                   </p>
                 </CardContent>
               </Card>
