@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { Calendar, Clock, MapPin, Users } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
-const CONFERENCE_DATE = new Date("2025-03-15T09:00:00") // Adjust this date as needed
+const CONFERENCE_DATE = new Date("2025-11-29T09:00:00") // November 29, 2025
 
 interface TimeLeft {
   days: number
@@ -97,7 +97,7 @@ export function CountdownTimer() {
           >
             <div className="flex items-center justify-center space-x-2 text-sm text-muted-foreground">
               <Calendar className="w-4 h-4" />
-              <span>March 15, 2025</span>
+              <span>November 29, 2025</span>
             </div>
             <div className="flex items-center justify-center space-x-2 text-sm text-muted-foreground">
               <Clock className="w-4 h-4" />

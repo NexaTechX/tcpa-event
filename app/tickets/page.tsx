@@ -22,7 +22,7 @@ export default function TicketsPage() {
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Select the perfect ticket that matches your goals and budget. Choose from in-person attendance (FREE), 
-                virtual streaming (₦5,000), VIP experience (₦20,000), or corporate packages (₦90,000).
+                virtual streaming (₦5,000), VIP experience (₦15,000), or corporate packages (₦70,000).
               </p>
             </div>
           </div>
@@ -42,7 +42,10 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">Regular Pass</CardTitle>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-accent">FREE</span>
+                  <div className="flex items-center justify-center space-x-2">
+                    <span className="text-2xl font-bold text-muted-foreground line-through">₦10,000</span>
+                    <span className="text-4xl font-bold text-accent">FREE</span>
+                  </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -84,7 +87,10 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">Virtual Pass</CardTitle>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-primary">₦5,000</span>
+                  <div className="flex items-center justify-center space-x-2">
+                    <span className="text-2xl font-bold text-muted-foreground line-through">₦10,000</span>
+                    <span className="text-4xl font-bold text-primary">₦5,000</span>
+                  </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -133,7 +139,10 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">VIP Pass</CardTitle>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-primary">₦20,000</span>
+                  <div className="flex items-center justify-center space-x-2">
+                    <span className="text-2xl font-bold text-muted-foreground line-through">₦20,000</span>
+                    <span className="text-4xl font-bold text-primary">₦15,000</span>
+                  </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -177,7 +186,7 @@ export default function TicketsPage() {
                 </div>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-transform shadow-lg">
                   <a href="https://selar.com/16v915" target="_blank" rel="noopener noreferrer">
-                    Get VIP Access – ₦20,000
+                    Get VIP Access – ₦15,000
                   </a>
                 </Button>
               </CardContent>
@@ -192,7 +201,10 @@ export default function TicketsPage() {
                 <CardTitle className="text-2xl font-bold text-card-foreground">Corporate Pass</CardTitle>
                 <p className="text-sm text-muted-foreground mt-2">Admits 5 People</p>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-primary">₦90,000</span>
+                  <div className="flex items-center justify-center space-x-2">
+                    <span className="text-2xl font-bold text-muted-foreground line-through">₦100,000</span>
+                    <span className="text-4xl font-bold text-primary">₦70,000</span>
+                  </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -223,7 +235,7 @@ export default function TicketsPage() {
                 </div>
                 <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground hover:scale-105 transition-transform">
                   <a href="https://selar.com/61m9w9" target="_blank" rel="noopener noreferrer">
-                    Get Corporate Access
+                    Get Corporate Access – ₦70,000
                   </a>
                 </Button>
               </CardContent>

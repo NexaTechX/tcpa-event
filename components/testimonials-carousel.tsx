@@ -9,39 +9,30 @@ import { Card, CardContent } from "@/components/ui/card"
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Adebayo",
-    role: "Tech Entrepreneur",
-    company: "InnovateLagos",
-    content: "TPCA 2024 was a game-changer for my startup. The networking opportunities and insights from industry leaders helped me secure funding within 3 months.",
+    name: "Esther",
+    role: "Entrepreneur",
+    company: "",
+    content: "TPCA opened doors I didn't even know existed. I left with clarity, new contacts, and the courage to launch my project. I'm proud to be a Pacesetter!",
     rating: 5,
-    image: "/testimonials/sarah.jpg"
+    image: "/testimonials/esther.jpg"
   },
   {
     id: 2,
-    name: "David Okechukwu",
-    role: "Creative Director",
-    company: "DesignHub Africa",
-    content: "The creative sessions at TPCA opened my eyes to new possibilities. I've since launched two successful campaigns inspired by what I learned.",
+    name: "Michael",
+    role: "Creative",
+    company: "",
+    content: "This conference is different. Real stories, real lessons, real people. It's not just motivation — it's practical and it works.",
     rating: 5,
-    image: "/testimonials/david.jpg"
+    image: "/testimonials/michael.jpg"
   },
   {
     id: 3,
-    name: "Fatima Hassan",
-    role: "Student Leader",
-    company: "University of Lagos",
-    content: "As a student, TPCA gave me the confidence to pursue my dreams. The mentorship program connected me with amazing professionals who guide me till today.",
+    name: "Yinka",
+    role: "Community Leader",
+    company: "",
+    content: "Being awarded at TPCA changed how my community sees my work. I got new clients and partnerships after the event!",
     rating: 5,
-    image: "/testimonials/fatima.jpg"
-  },
-  {
-    id: 4,
-    name: "Emeka Okonkwo",
-    role: "Business Consultant",
-    company: "Growth Partners",
-    content: "I've attended many conferences, but TPCA stands out for its authentic African perspective and practical business insights. Highly recommended!",
-    rating: 5,
-    image: "/testimonials/emeka.jpg"
+    image: "/testimonials/yinka.jpg"
   }
 ]
 
@@ -96,7 +87,7 @@ export function TestimonialsCarousel() {
           transition={{ duration: 0.6 }}
           className="text-3xl font-bold text-foreground mb-4"
         >
-          What Our Attendees Say
+          TESTIMONIALS
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -104,7 +95,7 @@ export function TestimonialsCarousel() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-muted-foreground"
         >
-          Hear from previous TPCA participants about their transformative experiences
+          Year after year, The Pacesetters Conference Africa has inspired thousands to dream bigger, lead better, and step beyond their limits. Here's what some of our past attendees have to say:
         </motion.p>
       </div>
 
@@ -184,7 +175,7 @@ export function TestimonialsCarousel() {
                       {currentTestimonial.name}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {currentTestimonial.role} at {currentTestimonial.company}
+                      {currentTestimonial.role}{currentTestimonial.company ? ` at ${currentTestimonial.company}` : ''}
                     </div>
                   </motion.div>
                 </div>
