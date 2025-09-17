@@ -65,19 +65,104 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Welcome Message Section */}
-      <section className="py-16 bg-card">
+      {/* TPCA Journey Section */}
+      <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h2 className="text-3xl lg:text-4xl font-bold text-card-foreground">
-              Welcome to The Pacesetters Conference Africa
-            </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Every year, The Pacesetters Conference Africa (TPCA) gathers ambitious young Africans who dare to lead
-              differently, purposefully, proficiently, and productively. Whether you're a student, creative,
-              entrepreneur, or professional, TPCA is where new ideas meet real action. Come connect with trailblazers,
-              learn from industry leaders, and step out ready to set the pace in your field.
-            </p>
+          <div className="max-w-5xl mx-auto space-y-12">
+            <div className="text-center space-y-6">
+              <h2 className="text-3xl lg:text-4xl font-bold text-card-foreground">
+                The TPCA Journey: Five Years of Impact
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                For the past five years, The Pacesetters Conference Africa (TPCA) has stood as a platform where bold ideas are born, where visionaries gather, and where lives are transformed. Each edition has carried its own spark, leaving behind unforgettable moments and lasting impact across Africa.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <Card className="bg-card border-border hover:border-primary/50 transition-colors">
+                <CardContent className="p-6 space-y-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <span className="text-primary font-bold text-lg">1</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-card-foreground">Year 1: The Birth of a Vision</h3>
+                  <p className="text-muted-foreground">
+                    The maiden edition brought together young Africans hungry for change, setting the foundation for a movement of purposeful leadership and influence.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-card border-border hover:border-primary/50 transition-colors">
+                <CardContent className="p-6 space-y-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <span className="text-primary font-bold text-lg">2</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-card-foreground">Year 2: Growth and Expansion</h3>
+                  <p className="text-muted-foreground">
+                    Conversations deepened, and participants left empowered to chase their goals with clarity and courage.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-card border-border hover:border-primary/50 transition-colors">
+                <CardContent className="p-6 space-y-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <span className="text-primary font-bold text-lg">3</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-card-foreground">Year 3: Building a Tribe</h3>
+                  <p className="text-muted-foreground">
+                    More than just a conference, TPCA became a community, a family of changemakers committed to raising the standard across sectors.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-card border-border hover:border-primary/50 transition-colors">
+                <CardContent className="p-6 space-y-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <span className="text-primary font-bold text-lg">4</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-card-foreground">Year 4: Continental Recognition</h3>
+                  <p className="text-muted-foreground">
+                    Voices from across Africa and beyond joined the stage, amplifying the message of excellence, productivity, and influence.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-card border-border hover:border-primary/50 transition-colors">
+                <CardContent className="p-6 space-y-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <span className="text-primary font-bold text-lg">5</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-card-foreground">Year 5: A Milestone Celebration</h3>
+                  <p className="text-muted-foreground">
+                    Five years of growth, transformation, and testimonies proved that TPCA was no longer just an idea, but a movement setting the pace for Africa's future leaders.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-primary border-primary hover:bg-primary/90 transition-colors">
+                <CardContent className="p-6 space-y-4">
+                  <div className="w-12 h-12 bg-primary-foreground/20 rounded-lg flex items-center justify-center">
+                    <span className="text-primary-foreground font-bold text-lg">6</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-primary-foreground">Now, it's Year 6!</h3>
+                  <p className="text-primary-foreground/90">
+                    This year, TPCA returns with the theme "REDEFINITION: Stepping Beyond the Usual." It's not just another edition, but a call to unlock fresh ideas, spark purposeful connections, and step into a future where limits no longer define us.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="text-center space-y-6 bg-primary/5 rounded-2xl p-8">
+              <h3 className="text-2xl lg:text-3xl font-bold text-card-foreground">
+                Join hundreds of Africa's boldest thinkers, builders, and changemakers at TPCA 2025
+              </h3>
+              <p className="text-lg text-muted-foreground">
+                Together, let's redefine what's possible for you, your business, and your community.
+              </p>
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3">
+                <a href="/tickets">Register Now</a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
