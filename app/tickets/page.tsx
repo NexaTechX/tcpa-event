@@ -42,10 +42,7 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">Regular Pass</CardTitle>
                 <div className="mt-4">
-                  <div className="flex items-center justify-center space-x-2">
-                    <span className="text-2xl font-bold text-muted-foreground line-through">₦10,000</span>
-                    <span className="text-4xl font-bold text-accent">FREE</span>
-                  </div>
+                  <span className="text-4xl font-bold text-accent">FREE</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -87,10 +84,7 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">Virtual Pass</CardTitle>
                 <div className="mt-4">
-                  <div className="flex items-center justify-center space-x-2">
-                    <span className="text-2xl font-bold text-muted-foreground line-through">₦10,000</span>
-                    <span className="text-4xl font-bold text-primary">₦5,000</span>
-                  </div>
+                  <span className="text-4xl font-bold text-primary">₦5,000</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -139,10 +133,7 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">VIP Pass</CardTitle>
                 <div className="mt-4">
-                  <div className="flex items-center justify-center space-x-2">
-                    <span className="text-2xl font-bold text-muted-foreground line-through">₦20,000</span>
-                    <span className="text-4xl font-bold text-primary">₦15,000</span>
-                  </div>
+                  <span className="text-4xl font-bold text-primary">₦15,000</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -201,10 +192,7 @@ export default function TicketsPage() {
                 <CardTitle className="text-2xl font-bold text-card-foreground">Corporate Pass</CardTitle>
                 <p className="text-sm text-muted-foreground mt-2">Admits 5 People</p>
                 <div className="mt-4">
-                  <div className="flex items-center justify-center space-x-2">
-                    <span className="text-2xl font-bold text-muted-foreground line-through">₦100,000</span>
-                    <span className="text-4xl font-bold text-primary">₦70,000</span>
-                  </div>
+                  <span className="text-4xl font-bold text-primary">₦70,000</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -341,6 +329,7 @@ export default function TicketsPage() {
                   </p>
                 </CardContent>
               </Card>
+
             </div>
           </div>
         </div>
