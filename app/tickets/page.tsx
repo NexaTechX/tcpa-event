@@ -21,8 +21,8 @@ export default function TicketsPage() {
                 <span className="text-primary">Conference Experience</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Select the perfect ticket that matches your goals and budget. Choose from in-person attendance (FREE), 
-                virtual streaming (₦5,000), VIP experience (₦15,000), or corporate packages (₦70,000).
+                Select the perfect ticket that matches your goals and budget. Choose from in-person attendance (₦10,000), 
+                virtual streaming (₦10,000), VIP experience (₦20,000), or corporate packages (₦100,000).
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">Regular Pass</CardTitle>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-accent">FREE</span>
+                  <span className="text-4xl font-bold text-accent">₦10,000</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -70,7 +70,7 @@ export default function TicketsPage() {
                 </div>
                 <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground hover:scale-105 transition-transform">
                   <a href="https://selar.com/4436a6" target="_blank" rel="noopener noreferrer">
-                    Get Free Access
+                    Get Regular Access – ₦10,000
                   </a>
                 </Button>
               </CardContent>
@@ -84,7 +84,7 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">Virtual Pass</CardTitle>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-primary">₦5,000</span>
+                  <span className="text-4xl font-bold text-primary">₦10,000</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -116,7 +116,7 @@ export default function TicketsPage() {
                 </div>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-transform">
                   <a href="https://selar.com/mj10s2" target="_blank" rel="noopener noreferrer">
-                    Get Virtual Access – ₦5,000
+                    Get Virtual Access – ₦10,000
                   </a>
                 </Button>
               </CardContent>
@@ -133,7 +133,7 @@ export default function TicketsPage() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-card-foreground">VIP Pass</CardTitle>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-primary">₦15,000</span>
+                  <span className="text-4xl font-bold text-primary">₦20,000</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -177,7 +177,7 @@ export default function TicketsPage() {
                 </div>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-transform shadow-lg">
                   <a href="https://selar.com/16v915" target="_blank" rel="noopener noreferrer">
-                    Get VIP Access – ₦15,000
+                    Get VIP Access – ₦20,000
                   </a>
                 </Button>
               </CardContent>
@@ -192,7 +192,7 @@ export default function TicketsPage() {
                 <CardTitle className="text-2xl font-bold text-card-foreground">Corporate Pass</CardTitle>
                 <p className="text-sm text-muted-foreground mt-2">Admits 5 People</p>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-primary">₦70,000</span>
+                  <span className="text-4xl font-bold text-primary">₦100,000</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -223,7 +223,7 @@ export default function TicketsPage() {
                 </div>
                 <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground hover:scale-105 transition-transform">
                   <a href="https://selar.com/61m9w9" target="_blank" rel="noopener noreferrer">
-                    Get Corporate Access – ₦70,000
+                    Get Corporate Access – ₦100,000
                   </a>
                 </Button>
               </CardContent>
@@ -300,8 +300,8 @@ export default function TicketsPage() {
                     What's the difference between Virtual and Regular Pass?
                   </h3>
                   <p className="text-muted-foreground">
-                    The Virtual Pass (₦5,000) gives you online access to all sessions with live streaming and virtual networking, 
-                    while the Regular Pass (FREE) is for in-person attendance. Virtual attendees get 30-day access to recorded sessions.
+                    The Virtual Pass (₦10,000) gives you online access to all sessions with live streaming and virtual networking, 
+                    while the Regular Pass (₦10,000) is for in-person attendance. Virtual attendees get 30-day access to recorded sessions.
                   </p>
                 </CardContent>
               </Card>
@@ -321,11 +321,10 @@ export default function TicketsPage() {
               <Card className="bg-card border-border hover:shadow-lg transition-all duration-300 hover:border-primary/30 group">
                 <CardContent className="p-6">
                   <h3 className="font-semibold text-card-foreground mb-2 group-hover:text-primary transition-colors">
-                    Is the Regular Pass really free?
+                    What does the Regular Pass include?
                   </h3>
                   <p className="text-muted-foreground">
-                    Yes! We believe in making transformative content accessible. The Regular Pass gives you access to
-                    all keynote sessions and networking opportunities at no cost.
+                    The Regular Pass is ₦10,000 and gives you access to all keynote sessions and networking opportunities for in-person attendance.
                   </p>
                 </CardContent>
               </Card>
