@@ -22,7 +22,7 @@ export default function TicketsPage() {
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Select the perfect ticket that matches your goals and budget. Choose from in-person attendance (₦10,000), 
-                virtual streaming (₦10,000), VIP experience (₦20,000), or corporate packages (₦100,000).
+                virtual streaming (₦10,000), VIP experience (₦20,000), or corporate packages (₦95,000).
               </p>
             </div>
           </div>
@@ -174,6 +174,10 @@ export default function TicketsPage() {
                     <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">Priority booking for future TPCA events</span>
                   </div>
+                  <div className="flex items-start space-x-3">
+                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">One virtual ticket</span>
+                  </div>
                 </div>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-transform shadow-lg">
                   <a href="https://selar.com/16v915" target="_blank" rel="noopener noreferrer">
@@ -192,7 +196,7 @@ export default function TicketsPage() {
                 <CardTitle className="text-2xl font-bold text-card-foreground">Corporate Pass</CardTitle>
                 <p className="text-sm text-muted-foreground mt-2">Admits 5 People</p>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-primary">₦100,000</span>
+                  <span className="text-4xl font-bold text-primary">₦95,000</span>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -223,7 +227,7 @@ export default function TicketsPage() {
                 </div>
                 <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground hover:scale-105 transition-transform">
                   <a href="https://selar.com/61m9w9" target="_blank" rel="noopener noreferrer">
-                    Get Corporate Access – ₦100,000
+                    Get Corporate Access – ₦95,000
                   </a>
                 </Button>
               </CardContent>
